@@ -1,0 +1,163 @@
+body{
+    background-color:yellow;
+}
+.main{
+    margin-left: 400px;
+}
+h1{
+    text-align: center;
+}
+.box{
+    height:100px;
+    width:100px;
+    margin: 30px;   
+}
+.first{
+    display: inline-block;
+    display: flex;
+}
+.box1{
+    background-color:blueviolet;
+    animation-name: sai;
+    animation-iteration-count:infinite;
+    animation-duration:3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes sai{
+    0%{
+        transform: skewX(-20deg);
+    }
+    50%{
+        transform:skewX(20deg);
+    }
+    100%{
+        transform:skewX(-20deg);
+    }
+}
+.second{
+    display: inline-block;
+    display: flex;
+}
+.box2{
+    background-color:gray;
+    animation-name: kiran;
+    animation-iteration-count:infinite;
+    animation-duration:3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kiran{
+    0%{
+        transform: skewY(-20deg);
+    }
+    50%{
+        transform:skewY(20deg);
+    }
+    100%{
+        transform:skewY(-20deg);
+    }
+}
+.third{
+    display: inline-block;
+    display: flex;
+}
+.box3{
+    background-color:lightseagreen;
+    animation-name:sais;
+    animation-iteration-count:infinite;
+    animation-duration:3s;
+}
+@keyframes sais{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.forth{
+    display: inline-block;
+    display: flex;
+}
+.box4{
+    background-color:blueviolet;
+    animation-name:kirans;
+    animation-iteration-count:infinite;
+    animation-duration:3s;
+}
+@keyframes kirans{
+    0%{
+        transform:scaleY(0.3);
+    }
+    50%{
+        transform:scaleY(1);
+    }
+    100%{
+        transform:scaleY(0.3);
+    }
+}
+.box5{
+    background-color:brown;
+    animation-name:kiranss;
+    animation-iteration-count:infinite;
+    animation-duration:3s;
+}
+@keyframes kiranss{
+    0%{
+        transform:scaleX(0.3);
+    }
+    50%{
+        transform:scaleX(1);
+    }
+    100%{
+        transform: scaleX(0.3);
+    }
+}
+.box6{
+    background-color:green;
+    animation-name:saik;
+    animation-iteration-count:infinite;
+    animation-duration:3s;
+}
+@keyframes saik{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+}
+.boxx{
+    height:100px;
+    width:100px;
+    background-color: lightgreen;
+    transition:width 2s,height 2s;
+}
+.fst:hover{
+    transition-timing-function:linear;
+    width:400px;
+}
+.scnd:hover{
+    transition-timing-function:linear;
+    width:400px;
+    height:300px;
+}
+.thrd:hover{
+    transition-timing-function:ease;
+    width:400px;
+}
+.frth:hover{
+    transition-timing-function:ease-in;
+    width:400px;
+}
+.fvth:hover{
+    transition-timing-function:ease-out;
+    width:400px;
+}
+.sxth:hover{
+    transition-timing-function:ease-in-out;
+    width:400px;
+}
+.svth:hover{
+    transition-timing-function:ease;
+    width:400px;
+}
